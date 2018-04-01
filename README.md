@@ -53,6 +53,7 @@ Install procedure:
 8. Run "service event_watcher start"
 
 9.1. Make sure that the scheduler is started(need installed "htop". run the command: "htop". You must see(for example): "python /home/pi/domoticz/eventwatcher/event_watcher.py"
+
 9.2. Make sure that the event store directory was created and exist.
 
 10. Voila!
