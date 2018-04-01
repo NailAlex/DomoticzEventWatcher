@@ -12,7 +12,6 @@ He checks the directory with job files for the specified time and performs the t
 
 Supporting all Raspbian/Debian/Ubuntu platforms and including example script to create sheduled job. 
 
-
 Features:
 - Used with Python version 3+
 - The Watcher is installed and launched as a system service
@@ -23,6 +22,11 @@ Features:
 - The Watcher can call the system command (if necessary), for example call Ping ;)
 - When the Watcher starts, it deletes all uncommitted jobs from the queue and create Events directory if it not exist
 - The Watcher uses the logging of tasks and events
+
+Typical use cases:
+- actions for motion sensors with a delayed shutdown (for example, a backlight lamp)
+- automatic security mode arming after a short time after the departure of the host
+- many many other applications!
 
 Download the latest version (version 1.0) here :
 https://github.com/NailAlex/SheduledEvent
