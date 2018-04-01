@@ -52,11 +52,11 @@ Install procedure:
 
 8. Run "service event_watcher start"
 
-9.1. Make sure that the scheduler is started(need installed "htop". run the command: "htop". You must see(for example): "python /home/pi/domoticz/eventwatcher/event_watcher.py"
+9. Make sure that the scheduler is started(need installed "htop". run the command: "htop". You must see(for example): "python /home/pi/domoticz/eventwatcher/event_watcher.py"
 
-9.2. Make sure that the event store directory was created and exist.
+10. Make sure that the event store directory was created and exist.
 
-10. Voila!
+11. Voila!
 
 
 Using Event Watcher:
@@ -81,7 +81,6 @@ C. Put script path to switch action in Domoticz (edit switch). Example: "script:
 D. Push your switch, a job file appears in the Event store directory
 
 E. After little time job will be completed and commands will be executed. Finished events will be deleted automatically.
-
 
 ## History
 
