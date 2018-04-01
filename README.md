@@ -29,7 +29,7 @@ Typical use cases:
 - many many other applications!
 
 Download the latest version (version 1.0) here :
-https://github.com/NailAlex/SheduledEvent
+https://github.com/NailAlex/DomoticzEventWatcher
 
 
 ## HOW TO USE
